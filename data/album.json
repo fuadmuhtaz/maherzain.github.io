@@ -1,0 +1,164 @@
+{
+	"daftar_album" : [
+		{
+			"judul": "Thank You Allah",
+			"daftar_video": [
+				{
+					"judul": "Maher Zain - Awaken | Official Lyric Video",
+					"durasi": "04:38",
+					"img": "img/thank-you-allah/maher-zain-awaken.jpg",
+					"video": "video/thank-you-allah/maher-zain-awaken.ogv"
+				},
+				{
+					"judul": "Maher Zain - Baraka Allahu Lakuma | Official Lyric Video",
+					"durasi": "05:24",
+					"img": "img/thank-you-allah/maher-zain-baraka-allahu-lakuma.jpg",
+					"video": "video/thank-you-allah/maher-zain-baraka-allahu-lakuma.ogv"
+				},
+				{
+					"judul": "Maher Zain feat. Irfan Makki - Allahi Allah Kiya Karo | Official Lyric Video",
+					"durasi": "06:14",
+					"img": "img/thank-you-allah/maher-zain-feat-irfan-makki-allahi-allah-kiya-karo.jpg",
+					"video": "video/thank-you-allah/maher-zain-feat-irfan-makki-allahi-allah-kiya-karo.ogv"
+				},
+				{
+					"judul": "Maher Zain feat. Mesut Kurtis - Subhana Allah | Official Lyric Video",
+					"durasi": "05:53",
+					"img": "img/thank-you-allah/maher-zain-feat-mesut-kurtis-subhana-allah.jpg",
+					"video": "video/thank-you-allah/maher-zain-feat-mesut-kurtis-subhana-allah.ogv"
+				},
+				{
+					"judul": "Maher Zain - For The Rest Of My Life | Official Music Video",
+					"durasi": "04:48",
+					"img": "img/thank-you-allah/maher-zain-for-the-rest-of-my-life.jpg",
+					"video": "video/thank-you-allah/maher-zain-for-the-rest-of-my-life.ogv"
+				},
+				{
+					"judul": "Maher Zain - Hold My Hand | Official Lyric Video",
+					"durasi": "04:55",
+					"img": "img/thank-you-allah/maher-zain-hold-my-hand.jpg",
+					"video": "video/thank-you-allah/maher-zain-hold-my-hand.ogv"
+				},
+				{
+					"judul": "Maher Zain - Insha Allah | Official Music Video",
+					"durasi": "04:47",
+					"img": "img/thank-you-allah/maher-zain-insha-allah.jpg",
+					"video": "video/thank-you-allah/maher-zain-insha-allah.ogv"
+				},
+				{
+					"judul": "Maher Zain - Open Your Eyes | Official Lyric Video",
+					"durasi": "05:22",
+					"img": "img/thank-you-allah/maher-zain-open-your-eyes.jpg",
+					"video": "video/thank-you-allah/maher-zain-open-your-eyes.ogv"
+				},
+				{
+					"judul": "Maher Zain - Palestine Will Be Free | Official Music Video",
+					"durasi": "05:39",
+					"img": "img/thank-you-allah/maher-zain-palestine-will-be-free.jpg",
+					"video": "video/thank-you-allah/maher-zain-palestine-will-be-free.ogv"
+				},
+				{
+					"judul": "Maher Zain - Thank You Allah | Official Lyric Video",
+					"durasi": "06:25",
+					"img": "img/thank-you-allah/maher-zain-thank-you-allah.jpg",
+					"video": "video/thank-you-allah/maher-zain-thank-you-allah.ogv"
+				},
+				{
+					"judul": "Maher Zain - The Chosen One | Official Music Video",
+					"durasi": "04:55",
+					"img": "img/thank-you-allah/maher-zain-the-chosen-one.jpg",
+					"video": "video/thank-you-allah/maher-zain-the-chosen-one.ogv"
+				},
+				{
+					"judul": "Maher Zain - Ya Nabi Salam Alayka | Official Music Video",
+					"durasi": "05:36",
+					"img": "img/thank-you-allah/maher-zain-ya-nabi-salam-alayka.jpg",
+					"video": "video/thank-you-allah/maher-zain-ya-nabi-salam-alayka.ogv"
+				}
+			]
+		},
+		{
+			"judul": "Forgive Me",
+			"daftar_video": [
+				{
+					"judul": "Maher Zain - Assalamu Alayka | Official Lyric Video",
+					"durasi": "05:13",
+					"img": "img/forgive-me/maher-zain-assalamu-alayka.jpg",
+					"video": "video/forgive-me/maher-zain-assalamu-alayka.ogv"
+				},
+				{
+					"judul": "Maher Zain - Forgive Me | Official Lyric Video",
+					"durasi": "04:22",
+					"img": "img/forgive-me/maher-zain-forgive-me.jpg",
+					"video": "video/forgive-me/maher-zain-forgive-me.ogv"
+				},
+				{
+					"judul": "Maher Zain - Freedom | Official Music Video",
+					"durasi": "04:44",
+					"img": "img/forgive-me/maher-zain-freedom.jpg",
+					"video": "video/forgive-me/maher-zain-freedom.ogv"
+				},
+				{
+					"judul": "Maher Zain - Guide Me All The Way | Official Lyric Video",
+					"durasi": "05:58",
+					"img": "img/forgive-me/maher-zain-guide-me-all-the-way.jpg",
+					"video": "video/forgive-me/maher-zain-guide-me-all-the-way.ogv"
+				},
+				{
+					"judul": "Maher Zain - I Love You So | Official Lyric Video",
+					"durasi": "05:32",
+					"img": "img/forgive-me/maher-zain-i-love-you-so.jpg",
+					"video": "video/forgive-me/maher-zain-i-love-you-so.ogv"
+				},
+				{
+					"judul": "Maher Zain - Mawlaya | Official Lyric Video",
+					"durasi": "05:47",
+					"img": "img/forgive-me/maher-zain-mawlaya.jpg",
+					"video": "video/forgive-me/maher-zain-mawlaya.ogv"
+				},
+				{
+					"judul": "Maher Zain - Muhammad | Official Music Video",
+					"durasi": "05:50",
+					"img": "img/forgive-me/maher-zain-muhammad.jpg",
+					"video": "video/forgive-me/maher-zain-muhammad.ogv"
+				},
+				{
+					"judul": "Maher Zain - My Little Girl | Official Lyric Video",
+					"durasi": "05:31",
+					"img": "img/forgive-me/maher-zain-my-little-girl.jpg",
+					"video": "video/forgive-me/maher-zain-my-little-girl.ogv"
+				},
+				{
+					"judul": "Maher Zain - Number One For Me | Official Music Video",
+					"durasi": "06:20",
+					"img": "img/forgive-me/maher-zain-number-one-for-me.jpg",
+					"video": "video/forgive-me/maher-zain-number-one-for-me.ogv"
+				},
+				{
+					"judul": "Maher Zain - One Big Family | Official Lyric Video",
+					"durasi": "05:06",
+					"img": "img/forgive-me/maher-zain-one-big-family.jpg",
+					"video": "video/forgive-me/maher-zain-one-big-family.ogv"
+				},
+				{
+					"judul": "Maher Zain - Paradise | Official Audio",
+					"durasi": "04:15",
+					"img": "img/forgive-me/maher-zain-paradise.jpg",
+					"video": "video/forgive-me/maher-zain-paradise.ogv"
+				},
+				{
+					"judul": "Maher Zain - Radhitu Billahi Rabba | Official Lyrics",
+					"durasi": "05:35",
+					"img": "img/forgive-me/maher-zain-radhitu-billahi-rabba.jpg",
+					"video": "video/forgive-me/maher-zain-radhitu-billahi-rabba.ogv"
+				},
+				{
+					"judul": "Maher Zain - So Soon | Official Music Video",
+					"durasi": "07:15",
+					"img": "img/forgive-me/maher-zain-so-soon.jpg",
+					"video": "video/forgive-me/maher-zain-so-soon.ogv"
+				}
+			]
+		}
+	]
+}

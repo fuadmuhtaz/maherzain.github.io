@@ -1,0 +1,177 @@
+.section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.section h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.gambar-fix {
+	margin-bottom: 10px;
+}
+/* Navigasi
+********************************************/
+#navigasi{
+	background: #f96e5b;
+	width: auto;
+}
+
+#navigasi ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	display: block;
+}
+
+#navigasi ul:after {
+	content: "";
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#navigasi ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#navigasi ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;
+	font-weight: 700;
+  	text-transform: uppercase;
+  	font-size: 14px;
+  	position: relative;
+  	-webkit-transition: color .25s;
+  	-moz-transition: color .25s;
+  	-ms-transition: color .25s;
+  	-o-transition: color .25s;
+  	transition: color .25s;
+}
+
+#navigasi ul li a:hover {
+	color: #333333;
+}
+
+#navigasi ul li a:hover:before {
+	width: 100%;
+}
+
+#navigasi ul li a:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: -3px;
+	top: 19px;
+	height: 6px;
+	width: 6px;
+	background: #ffffff;
+	opacity: .5;
+}
+
+#navigasi ul li a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0;
+	background: #333333;
+	-webkit-transition: width .25s;
+  	-moz-transition: width .25s;
+  	-ms-transition: width .25s;
+  	-o-transition: width .25s;
+  	transition: width .25s;
+}
+
+#navigasi ul li.last > a:after,
+#navigasi ul li:last-child > a:after {
+	display: none;
+}
+
+#navigasi ul li.active a {
+  	color: #333333;
+}
+
+#navigasi ul li.active a:before {
+  	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  	#navigasi ul li {
+    	float: none;
+    	display: block;
+  	}
+  
+  	#navigasi ul li a {
+    	width: 100%;
+    	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+    	border-bottom: 1px solid #fb998c;
+  	}
+  
+  	#navigasi ul li.last > a,
+  	#navigasi ul li:last-child > a {
+    	border: 0;
+  	}
+  
+  	#navigasi ul li a:after {
+    	display: none;
+  	}
+
+  	#navigasi ul li a:before {
+    	display: none;
+  	}
+}
+
+/* Biografi
+********************************************/
+.foto{
+	margin-right: 10px;
+}
+
+.biografi embed {
+	padding-top: 20px;
+}
+
+/* Videografi
+*******************************************/
+.videografi a, .videografi video {
+	cursor: pointer;
+}
+
+/* Diskografi
+*******************************************/
+.diskografi .col-12:first-child,
+.diskografi .col-12:last-child {
+	margin-bottom: 0px;
+}
+
+.diskografi .col-12 {
+	margin-bottom: 20px;
+}
+
+/* Footer
+******************************************/
+.sosmed {
+	opacity: .5;
+}
+
+.sosmed:hover{
+	opacity: 1;
+}
+
+.unpam {
+	margin-left: 50%;
+	position: absolute;
+}

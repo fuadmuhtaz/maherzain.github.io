@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Fuad Muhtaz">
+		<meta name="description" content="Unofficial Maher Zain Website">
+		<meta name="keywords" content="Maher Zain, Biografi Maher Zain, Diskografi Maher Zain, Sinematografi Maher Zain, Thank You Allah Maher Zain, Forgive Me Maher Zain, Video Maher Zain">
+
+		<title>Registrasi - Maher Zain - Unofficial Website</title>
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<!-- Section Header -->
+		<div class="section header">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<img src="img/header.jpg" class="img-responsive" alt="maher-zain-banner">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Section Navigasi -->
+		<div class="section navigasi">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div id="navigasi">
+							<ul>
+							   <li class='active'><a href='index.html'><span>Home</span></a></li>
+							   <li><a href='biografi.html'><span>Biografi</span></a></li>
+							   <li><a href='diskografi.html'><span>Diskografi</span></a></li>
+							   <li><a href="sinematografi.html"><span>Sinematografi</span></a></li>
+							   <li><a href='kontak.html'><span>Kontak</span></a></li>
+							   <li><a href="registrasi.html"><span>Registrasi</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Section Registrasi -->
+		<div class="section registrasi">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="bg-primary text-center">Registrasi</h2>
+					</div>
+					<div class="col-5">
+						<form>
+							<div class="form-group"><input class="form-control" type="text" placeholder="Nama"></div>
+							<div class="form-group"><input class="form-control" type="email" placeholder="Email"></div>
+							<div class="form-group"><input class="form-control" type="password" placeholder="Password"></div>
+							<div class="form-group" id="tanggal_lahir">
+								<h4>Tanggal Lahir</h4>
+								<select id="hari" name="hari"></select>
+								<select id="bulan" name="bulan"></select>
+								<select id="tahun" name="tahun"></select>
+							</div>
+							<div class="form-group">
+								<h4>Jenis Kelamin</h4>
+								<input type="radio" name="jenis_kelamin"> Laki-laki
+								<input type="radio" name="jenis_kelamin"> Perempuan
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Submit" class="form-button">
+								<input type="reset" value="Reset" class="form-button">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Section Footer -->
+		<div class="section footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<hr>
+						<ul class="list-inline pull-right">
+							<li>Fuad Muhtaz</li>
+							<li><a href="https://www.facebook.com/fuadmuhtaz" target="_blank"><img src="img/facebook.png" class="sosmed"></a></li>
+							<li><a href="https://github.com/fuadmuhtaz" target="_blank"><img src="img/github.png" class="sosmed"></a></li>
+							<li><a href="https://twitter.com/fuadmuhtaz" target="_blank"><img src="img/twitter.png" class="sosmed"></a></li>
+						</ul>
+						<ul class="list-inline">
+							<li>&copy; 2015</li>
+							<li>Universitas Pamulang</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var daftar_bulan = [
+				"Januari", "Februari", "Maret", "April", "Mei", "Juni",
+				"Juli", "Agustus", "September", "Oktober", "November", "Desember"
+			];
+			var insert_bulan = "<option>Bulan</option>";
+			daftar_bulan.forEach(function(bulan){
+				insert_bulan +="<option>"+bulan+"</option>";
+			});
+			document.getElementById("bulan").innerHTML = insert_bulan;
+
+			var insert_hari = "<option>Hari</option>";
+			for(var i=1; i<=31; i++){
+				insert_hari +="<option>"+i+"</option>";
+			}
+			document.getElementById('hari').innerHTML = insert_hari;
+
+			var insert_tahun = "<option>Tahun</option>";
+			var tahun = new Date().getFullYear();
+			for(var i=tahun; i>=1905; i--){
+				insert_tahun += "<option>"+i+"</option>"
+			}
+			document.getElementById('tahun').innerHTML = insert_tahun;
+		</script>
+	</body>
+</html>
