@@ -294,7 +294,7 @@ ol ol {
 }
 
 .list-group-item h5{
-    width: 90%;
+    width: 80%;
     display: inline-block;
     margin: 0px;
 }
@@ -306,10 +306,6 @@ ol ol {
     
     .list-group {
         padding-right: 10px;
-    }
-
-    .list-group-item h5 {
-        width: 75%;
     }
 }
 

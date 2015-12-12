@@ -106,7 +106,7 @@
   	width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   	#navigasi ul li {
     	float: none;
     	display: block;

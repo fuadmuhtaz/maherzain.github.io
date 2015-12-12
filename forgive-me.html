@@ -106,7 +106,6 @@
 						<h3></h3>
 						<div class="embed-responsive embed-responsive-16by9">
 							<video controls class="embed-responsive-item">
-								<source>
 							</video>
 						</div>
 					</div>
@@ -159,7 +158,6 @@
 				var divVideo = document.getElementById('video-container');
 				var judulVideo = divVideo.getElementsByTagName('h3');
 				var videoPlayer = divVideo.getElementsByTagName('video');
-				var sumberVideo = divVideo.getElementsByTagName('source');
 
 				divDaftar.innerHTML = temp;
 				divDaftar.addEventListener("click", function(e){
@@ -177,7 +175,9 @@
 					daftarList[index].classList.add('active');
 					
 					judulVideo[0].innerHTML = daftar_video[index].judul;
-					sumberVideo[0].src = daftar_video[index].video;
+					var localSource = '<source src="'+daftar_video[index].video+'">';
+					var gitSource = '<source src="https://github.com/maherzain/maherzain.github.io/blob/master/'+daftar_video[index].video+'?raw=true">';
+					videoPlayer[0].innerHTML = localSource+gitSource;
 					videoPlayer[0].poster = daftar_video[index].img;
 					videoPlayer[0].load();
 				});
